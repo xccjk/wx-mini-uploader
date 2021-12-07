@@ -1,0 +1,5 @@
+<!--index.wxml-->
+<view class="container">
+  <view>基于mpflow的微信小程序构建开发工具，支持typescript、less、scss、webpack、babel</view>
+  <button bindtap="bindViewTap">跳转到游戏</button>
+</view>

@@ -1,0 +1,17 @@
+{
+  "name": "hello-comps",
+  "version": "1.0.0",
+  "private": "true",
+  "scripts": {
+    "build": "mpflow-service build",
+    "dev": "mpflow-service dev",
+    "dev:open": "mpflow-service dev --open"
+  },
+  "dependencies": {
+    "@mpflow/plugin-babel": "^0.0.31",
+    "@mpflow/service": "^0.0.27"
+  },
+  "devDependencies": {
+    "webpack-runtime-public-path-plugin": "^1.1.2"
+  }
+}

@@ -1,0 +1,19 @@
+<scroll-view scroll-y="true" class='layout'> 
+  <view class='header'>
+    <view class='card'>
+      <view>时间</view>
+      <view>{{countTime}}秒</view>
+    </view>
+    <view class='card'>
+      <view>点击次数</view>
+      <view>{{clickNum}}</view>
+    </view>
+  </view>
+  <view class='content'>
+    <view wx:if="{{materialText}}">{{materialText}}</view>
+    <view wx:for="{{allCard}}" wx:key="key" class="item material {{cssBox}} {{!item.disabled ? 'svg front' : 'back'}}" style="{{item.disabled ? svgs[item.id - 1] : ''}}" data-index="{{index}}" data-id="{{item.id}}" data-disabled="{{item.disabled}}" bindtap="handleChoose">
+      <image wx:if="{{item.src && item.disabled}}" src="{{item.src}}" />
+    </view>
+  </view>
+  <button type="primary" class="btn" bindtap="handleNext">跳转到尾页</button>
+</scroll-view>

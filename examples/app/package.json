@@ -1,0 +1,26 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "private": "true",
+  "scripts": {
+    "build": "mpflow-service build",
+    "dev": "mpflow-service dev",
+    "dev:open": "mpflow-service dev --open",
+    "upload": "mini-upload --packages=src/packages --private=src/config/private.key --robotPath=src/config/robot-config.js"
+  },
+  "dependencies": {
+    "@mpflow/plugin-babel": "^0.0.36",
+    "@mpflow/plugin-css": "^0.0.32",
+    "@mpflow/service": "^0.0.32",
+    "wx-miniprogram-uploader": "^1.0.0"
+  },
+  "devDependencies": {
+    "@babel/runtime": "^7.11.2",
+    "copy-webpack-plugin": "^6.4.1",
+    "eslint": "^8.4.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-prettier": "^4.0.0",
+    "fs-extra": "^10.0.0"
+  }
+}
