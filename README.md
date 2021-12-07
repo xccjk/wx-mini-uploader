@@ -4,10 +4,10 @@
 
 ## 使用方式
 
-- 本地安装miniprogram-uploader
+- 本地安装wx-miniprogram-uploader
 
 ```javascript
-  yarn add miniprogram-uploader -D
+  yarn add wx-miniprogram-uploader -D
 ```
 
 - package.json新增upload命令
