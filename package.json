@@ -1,0 +1,20 @@
+{
+  "name": "wx-mini-uploader",
+  "version": "1.0.0",
+  "description": "微信小程序打包上传工具,并添加了发布成功钉钉通知",
+  "main": "index.js",
+  "repository": "git@github.com:xccjk/wx-mini-uploader.git",
+  "author": "1025886304@qq.com",
+  "license": "MIT",
+  "bin": {
+    "mini-upload": "./bin/index.js"
+  },
+  "keywords": [
+    "WeChat Mini Program",
+    "code upload"
+  ],
+  "dependencies": {
+    "minimist": "^1.2.5",
+    "miniprogram-ci": "^1.6.10"
+  }
+}
