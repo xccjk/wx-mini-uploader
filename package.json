@@ -1,6 +1,6 @@
 {
   "name": "wx-mini-uploader",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "微信小程序打包上传工具,并添加了发布成功钉钉通知",
   "main": "index.js",
   "repository": "git@github.com:xccjk/wx-mini-uploader.git",

@@ -71,7 +71,7 @@ if (!isFile(`${process.cwd()}/${private}`)) {
   process.exit(1);
 }
 
-let robotConfig = null
+let robotConfig = {}
 let mainPackageConfig = {}
 
 if (isFile(`${process.cwd()}/${robotPath}`)) {
@@ -136,7 +136,6 @@ const dingdingMessage = (type = 1) => {
   try {
     const project = new ci.Project({
       appid: projectConfig.appid,
-      // appid: 'wx869a3ca6f650f5f1',
       type: 'miniProgram',
       projectPath: config.projectPath,
       privateKeyPath: config.private,
